@@ -1,0 +1,34 @@
+body{
+    display:flex;
+    justify-content: space-around;
+    justify-content: center;
+
+}
+.imgbox{
+    background: url('bg.jpg') no-repeat center/cover;
+    height: 155px;
+    width: 167px;
+    cursor: pointer;
+}
+.whitebox{
+    border: 2px solid grey;
+    height: 266px;
+    width: 288px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 83px;
+    border-radius: 33px;
+}
+
+.hold{
+    border: 3px solid red;
+}
+.hide{
+    display: none;
+}
+
+.dashed{
+    border-style: dashed;
+    /* background-color: grey; */
+}
